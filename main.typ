@@ -27,3 +27,15 @@
 + apply the implicit function theorem and the integral theorems of Green, Stokes, and Gauss
 + compute double and triple integrals representing surface and volumes of shapes, respectively
 
+#bluebox("Functions", [
+   - *Piecewise functions*: defined differently for different areas of the domain:
+   $ f = cases(1 quad x divides 2, 0 quad x divides.not 2) $
+   - *Even and Odd Functions*: if a function $f$ satisfies $forall x in D f(-x) = f(x)$, then
+      $f$ is called an _even_ function. If $f$ satisfies $f(-x) = - f(x)$, then it is called an
+      _odd_ function.
+   $ (-x)^2 = x^2 \ (-x)^3 = - x^3 $
+   - *Increasing and Decreasing Functions*: A function $f$ is called _increasing_ on an interval $I$
+      if $f(x_1) < f(x_2)$ whenever $x_1 < x_2 in I$. It is called _decreasing_ on $I$ if 
+      $f(x_1) > f(x_2)$ whenever $x_1 < x_2 in I$
+])
+
