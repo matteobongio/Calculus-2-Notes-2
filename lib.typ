@@ -55,7 +55,11 @@
 #let TheoremBox(title, text, ..opts) = {
   TheoremCnts.update(x => x + 1)
   let c = context TheoremCnts.get()
-  generalbox(green, [Theorem ] + c + [: ] + title, text, ..opts)
+  let TheoremTitle = [Theorem ] + c
+  if title != "" {
+    TheoremTitle += [: ] + title
+  }
+  generalbox(green, TheoremTitle, text, ..opts)
 }
 
 
