@@ -166,4 +166,25 @@ $
    $f(a)$ and $f(b)$ where $f(a) != f(b)$. There exists a $c$ in $(a, b)$ such that $f(c) = N$
 ])
 
+// #Definitionbox("Limit at infinity", [
+//    Let $f$ be a function defined on some interval $(- infinity, a)$
+//
+//    $ lim_(x -> - infinity) f(x) = L $
+//
+//    means that the values of $f(x)$ can be made arbitrarily close to L by requiring $x$ to be
+//    sufficiently large negative
+// ])
+
+#Definitionbox("Horizontal asymptote", [
+   The line $y = L$ is called the _horizontal asymptote_ of the curve if either
+   $ lim_(x -> - infinity) f(x) = L or lim_(x -> infinity) f(x) = L $
+])
+
+#TheoremBox("", [
+   - If $r > 0$ is a rational number 
+   $ lim_(x -> infinity) 1/(x^r) = 0 $
+
+   - If $r > 0$ is a rational number such that $x^r$ is defines for all $x$ 
+   $ lim_(x -> - infinity) 1/(x^r) = 0 $
+])
 
