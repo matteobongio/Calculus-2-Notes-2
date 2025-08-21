@@ -339,3 +339,23 @@ $
    ])
 ])
 
+#Definitionbox("Linear Approxamations", [
+   We can use a tangent line as a linear approximation of a function using this formula:
+   $ f(x) approx f(a) + f'(a)(x - a) $
+])
+
+#Definitionbox("Hyperbolic Functions", [
+   #columns(2)[
+   $
+      sinh x &= (e^x - e^(-x))/2 \
+      cosh x &= (e^x + e^(-x))/2 \
+      tanh x &= (sinh x)/(cosh x) \
+   $
+   #colbreak()
+   $
+      csch x &= (1)/(sinh x) \
+      sech x &= (1)/(cosh x) \
+      coth x &= (cosh x)/(sinh x) \
+   $
+   ]
+])
