@@ -37,7 +37,7 @@
   generalbox(purple, title, text, ..opts)
 }
 
-#let redebox(title, text, ..opts) = {
+#let redbox(title, text, ..opts) = {
   generalbox(red, title, text, ..opts)
 }
 

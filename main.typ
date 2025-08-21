@@ -326,7 +326,7 @@ $
    $
 ])
 
-#redebox("Logarithmic Differentiation", [
+#redbox("Logarithmic Differentiation", [
    Calculating Derivatives can sometimes be made simpler by taking the logatithm of both sides.
    #Examplebox([
       $
