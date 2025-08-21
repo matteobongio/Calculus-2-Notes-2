@@ -453,3 +453,27 @@ $
    $f(x) = g(x) + c$ for all $x in (a, b)$
 ])
 
+=== Shapes of Graphs from Derivatives
+
+#pinkbox("The First Derivative Test", [
+   Suiippose $c$ is a critical number:
+   - If $f'$ changes from positive to negative at $c$, then $f$ has a local max at $c$.
+   - If $f'$ changes from negative to positive at $c$, then $f$ has a local min at $c$.
+])
+
+#pinkbox("Concavity Test", [
+   - if $f''(x) > 0$ on an interval $I$, then $f$ is concave upward on $I$.
+   - if $f''(x) < 0$ on an interval $I$, then $f$ is concave downward on $I$.
+])
+
+#Definitionbox("Inflection Point", [
+   A point $P$ on a curve is called an _inflection point_ if $f$ 
+   is continuous there and the curve changes from concave upward
+   concave downward or vice versa.
+])
+
+#pinkbox("Secound Derivative Test", [
+   if $f''$ is continuous near $c$:
+   - If $f'(c) = 0$ and $f''(c) > 0$, then $f$ has a local min at $c$.
+   - If $f'(c) = 0$ and $f''(c) < 0$, then $f$ has a local max at $c$.
+])
