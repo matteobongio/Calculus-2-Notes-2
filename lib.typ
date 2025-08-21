@@ -37,6 +37,9 @@
   generalbox(purple, title, text, ..opts)
 }
 
+#let redebox(title, text, ..opts) = {
+  generalbox(red, title, text, ..opts)
+}
 
 #let DefCounters = state("defs", 0)
 
