@@ -283,3 +283,59 @@ $
    $ (b^x)' = b^x ln b $
 ])
 
+==== Implicit Differentiation
+
+#Definitionbox("Implicitly defined functions", [
+   Functions defined by a relation between x and y.
+
+   $ x^2 + y^2 = 25 $
+])
+
+#Definitionbox("Implicit Differentiation", [
+   We don't need to rearrange every equation in terms of $y$ to be able to differentiate.
+   We can use _implicit differentiation_ and differentiate both sides with respect to $x$, then
+   solve fot $dydx$.
+   
+   #Examplebox([
+      $
+         x^2 + y^2 &= 25 \
+         d/(d x) (x^ 2 + y^2) &= d / (d x) (25) \ 
+         d/(d x) (x^ 2) + d/(d x) (y^2) &= 0 \ 
+         2 x + 2 y dydx = 0 \
+         dydx = - x / y
+      $
+   ])
+])
+
+#Examplebox("Secound derivative of Implicit Funcitons", [
+   $
+      x^4 + y^4 &= 16 \
+      4 x^3 + 4y^3 y' &= 0 \
+      y' &= - x^3 / y^3 \
+      y'' &= d/(d x) (- x^3 / y^3) = - frac((y^3)(3 x^2) - (x^3)(3y^2 y'), y^6) \
+      &= - frac((y^3)(3 x^2) - (x^3)(3y^2 (- x^3 / y^3)), y^6) \
+      &= - frac(3(x^2 y^4 + x^6), y^7) = - frac(3 x^2 (y^4 + x^4), y^7) \
+      &= (3 x^2 (16))/y^7 = -48 x^2 / y^7
+   $
+])
+
+#pinkbox("Derivatives of Logarithmic Functions", [
+   $ 
+      d/(d x) (log_b x) = 1/(x ln b) \
+      d/(d x) (ln |x|) = 1/(x) \
+   $
+])
+
+#redebox("Logarithmic Differentiation", [
+   Calculating Derivatives can sometimes be made simpler by taking the logatithm of both sides.
+   #Examplebox([
+      $
+         y &= frac(x^(3/4) sqrt(x^2 + 1), (3x + 2)^5) \ 
+         ln y &= 3/4 ln x + 1/2 ln(x^2 + 1) - 5 (3x + 2) \
+         1 / y dydx &= 3/4 dot 1/x + 1/2 dot (2x)/(x^2 + 1) - 5 dot 3/(3x + 1) \ 
+         dydx &= y (3/4 dot 1/x + 1/2 dot (2x)/(x^2 + 1) - 5 dot 3/(3x + 1)) \ 
+         &= frac(x^(3/4) sqrt(x^2 times 1), (3x + 2)^5) (3/(4x) + x/(x^2 + 1) - 15/(3x + 1)) \ 
+      $
+   ])
+])
+
