@@ -387,3 +387,69 @@ $
    $
 ])
 
+=== Applications of Derivatives
+
+#Definitionbox("Absolute and Local Extreme Values", [
+   Let $c$ be a number in the domain $D$ of a funtion $f$. THen $f(c)$ is the:
+
+   - *Absolute Maximum*: value of $f$ on $D$ if $f(c) >= f(x)$ for all $x in D$
+
+   - *Absolute Minimum*: value of $f$ on $D$ if $f(c) <= f(x)$ for all $x in D$
+
+   - *Local Maximum*: value of $f$ if $f(c) >= f(x)$ when $x$ is near $c$
+
+   - *Local Minimum*: value of $f$ if $f(c) <= f(x)$ when $x$ is near $c$
+])
+
+#TheoremBox("The Extreme Value Theorem", [
+   If $f$ is contiuous on a closed interval $[a, b]$, then $f$ 
+   attains an absolute maximum balue $f(c)$ and an absolute minimum value
+   $f(d)$ at some numbers $c, d in [a, b]$.
+])
+
+#TheoremBox("Fermat's Theorem", [
+   If $f$ has a local max or min at $c$ and 
+   if $f'(c)$ exists the $f'(c) = 0$.
+])
+
+#Definitionbox("Critical number", [
+   A number $c in D$ is a _critical number_ if 
+   either $f'(c) = 0$ or doesn't exist.
+])
+
+#redbox("The Closed Interval Method", [
+   To find the _absolute_ max and min values of a contiuous function
+   $f$ on a closed interval $floor.l a, b floor.r$:
+   + Find the valus of $f$ at the critical numbers of $f$ in $(a, b)$
+   + Find the values of $f$ at the endpoints of the interval
+   + The largest of the valus from the previous steps is the absolute 
+      maximum value, the smalles is the absolute minimum
+])
+
+#TheoremBox("Rolle's Theorem", [
+   Let $f$ be a funciton that satisfies the following:
+   + $f$ is continuous on the closed interval $[a, b]$
+   + $f$ is differentiable on the open interval $(a, b)$
+   + $f(a) = f(b)$
+   Then there is a number $c$ in $(a, b)$ such that $f'(c) = 0$
+])
+
+#TheoremBox("Mean Value Theorem", [
+   Let $f$ be a funciton that satisfies the following:
+   + $f$ is continuous on the closed interval $[a, b]$
+   + $f$ is differentiable on the open interval $(a, b)$
+   Then there is a number $c$ in $(a, b)$ such that 
+   $
+      f'(c) = frac(f(b) - f(a), b - a) \
+   $
+   equiv.
+   $
+      f(b) - f(a) = f'(c) (b - a)
+   $
+])
+
+#purplebox("Corollary", [
+   If $f'(x) = g'(x)$ for all $x$ in an interval $(a, b)$, then 
+   $f(x) = g(x) + c$ for all $x in (a, b)$
+])
+
