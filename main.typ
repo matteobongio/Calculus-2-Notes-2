@@ -359,3 +359,31 @@ $
    $
    ]
 ])
+
+Hyperbolic Identities:
+$
+   sinh(-x) = - sinh x \
+   cosh(-x) = cosh x \
+   cosh^2 x - sinh^2 x = 1 \
+   1 - tanh^2 = sech^2 \
+   sinh(x + y) = sinh cosh y + cosh x sinh y \
+   cosh(x _ y) = cosh x cosh y + sinh x sinh y
+$
+
+#Definitionbox("Inverse Hyperbolic Funcitons", [
+   $
+      sinh^(-1) &= ln (x + sqrt(x^2 + 1)) &x in RR \
+      cosh^(-1) &= ln (x + sqrt(x^2 - 1)) &x >= 1 \
+      tanh^(-1) &= 1/2 ln ((1 + x) / (1 - x)) &-1 < x < 1 \
+   $
+   And their derivatives:
+   $
+      (sinh^(-1) x)' &= (1)/(sqrt(1 + x^2)) \
+      (cosh^(-1) x)' &= (1)/(sqrt(x^2 - 1)) \
+      (tanh^(-1) x)' &= (1)/(1 - x^2) \
+      (csch^(-1) x)' &= (1)/(|x| sqrt(x^2 + 1)) \
+      (sech^(-1) x)' &= (1)/(x sqrt(1 - x^2)) \
+      (coth^(-1) x)' &= (1)/(1 - x^2) \
+   $
+])
+
