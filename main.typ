@@ -188,3 +188,98 @@ $
    $ lim_(x -> - infinity) 1/(x^r) = 0 $
 ])
 
+== Derivatives
+
+#Definitionbox("Tangent Line", [
+   The _tangent line_ to the curve $f(x)$ at the point $P(a, f(a))$ is the line through $P$ with
+   slope:
+   $ m = limxa frac(f(x) - f(a), x - a) = lim_(h -> 0) frac(f(a + h) - f(a), h) $
+])
+
+#Definitionbox("Derivative of a function", [
+   The _derivative of a function_ $f$ at a number $a$ is
+   $ f'(a) = lim_(h -> 0) frac(f(a + h) - f(a), h) $
+
+   The derivative is the instantaneous rate of change of the function, at that point
+])
+
+#let dydx = $frac(d y, d x)$
+
+#Notationbox([ $ f'(x) = y' = dydx = frac(d f, d x) = d/(d x) f(x) = D_x f(x) $ ])
+
+#Definitionbox("", [
+   A function $f$ is _differentiable_ at $a$ if $f'(x)$ exists. It is _differentiable_
+   on an open interval if it is differentiable at every number in the interval
+])
+
+#TheoremBox("", [
+   if $f$ is differentiable at $a$, then $f$ is continuous at $a$.
+
+   #line(length: 100%)
+
+   Examples of continuous non-differentiable functions include:
+   - $|x|$
+   - vertical tangent lines: $limxa |f'(x)| = infinity$
+])
+
+=== Differentiation Rules:
+
+// #pinkbox("Constant Functions", [
+//    $ (c)' = 0 $
+// ])
+
+#pinkbox("Power Functions", [
+   $ (x^n)' = n x^(n - 1) $
+])
+
+#Definitionbox($e$, [
+   $
+      lim_(h -> 0) (e^h - 1) / h = 1 \
+      e = lim_(x -> 0) (1 + x)^(1/x) \ 
+      = lim_(n -> infinity) lr((1 + 1 / n), size: #150%)^n
+   $
+])
+
+#pinkbox("Product Rule", [
+   $ (u v)' = u' v + u v' $
+])
+
+#pinkbox("Quotient Rule", [
+   $ (u / v)' = frac(v u' - u v', v^2) $
+])
+
+#pinkbox("Chain Rule", [
+   $ f(g(x)) = f'(g(x)) dot g'(x) $
+   #line(length: 100%)
+   *The Power Rule combined with the chain rule*:
+   $ lr([(g(x))^n], size: #150%)' = n lr([g(x)], size: #150%)^(n - 1) g'(x) $
+])
+
+#pinkbox("Trigonometric Functions", [
+   $
+      (sin x)' &= cos x \
+      (cos x)' &= - sin x \
+      (tan x)' &= sec^2 x \
+      (csc x)' &= -csc x cot x \
+      (sec x)' &= sec x tan x \
+      (cot x)' &= - csc^2 x \
+      (arcsin x)' &= 1/sqrt(1 - x^2) \
+      (arccos x)' &= - 1/sqrt(1 - x^2) \
+      (arctan x)' &= 1/(1 + x^2) \
+      (csc^(-1) x)' &= - 1/(x sqrt(x^2 - 1)) \
+      (sec^(-1) x)' &= 1/(x sqrt(x^2 - 1)) \
+      (cot^(-1) x)' &= - 1/(1 + x^2)
+   $
+
+   #line(length: 100%)
+
+   $
+      lim_(theta -> 0) (sin theta) / theta &= 1 \
+      lim_(theta -> 0) (cos theta - 1) / theta &= 0
+   $
+])
+
+#pinkbox("General Exponential Functions", [
+   $ (b^x)' = b^x ln b $
+])
+
