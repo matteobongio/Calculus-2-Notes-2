@@ -477,3 +477,26 @@ $
    - If $f'(c) = 0$ and $f''(c) > 0$, then $f$ has a local min at $c$.
    - If $f'(c) = 0$ and $f''(c) < 0$, then $f$ has a local max at $c$.
 ])
+
+= Notes from lectures
+
+*dot product*
+#let a = $accent(a, arrow)$
+#let b = $accent(b, arrow)$
+#let c = $accent(c, arrow)$
+$
+#a dot #a = |#a|^2 \
+#a dot #b = #b dot #a
+#a dot (#b + #c) = #a dot #b + #a dot #c \
+(I #a) dot #b = I(#a dot #b) = #a dot (I #b) \
+0 dot #a = 0 \
+#a dot #b = |#a| |#b| cos theta \
+$
+
+*Projection of a vector on another vector*
+project b onto a
+$
+   "comp"_#a #b = frac( #a dot #b, |#a|) = |#b| cos theta
+$
+
+#bibliography("bib.bib", full: true)
