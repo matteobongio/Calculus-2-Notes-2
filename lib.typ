@@ -84,3 +84,14 @@
 }
 
 
+// other
+
+#let a = $arrow(a)$
+#let b = $arrow(b)$
+#let c = $arrow(c)$
+#let u = $arrow(u)$
+#let v = $arrow(v)$
+#let w = $arrow(w)$
+#let i = $arrow(i)$
+#let j = $arrow(j)$
+#let k = $arrow(k)$
