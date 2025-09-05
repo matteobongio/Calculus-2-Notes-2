@@ -21,21 +21,20 @@ $
    $
    "proj"_#a #b = frac( #a dot #b, |#a|^2) #a
    $
-
 ])
 
 
 - determinants of $2 times 2$ and $3 times 3$
 
 #Definitionbox("Cross Product", [
-   $ (#v) times (#w) = mat(
+   $ #v times #w = mat(
       #i, #j, #k ;
-      (#v)_1, (#v)_2 , (#v)_3 ;
-      (#w)_1, (#w)_2, (#w)_3 ;)
+      arrow(v)_1, arrow(v)_2 , arrow(v)_3 ;
+      arrow(w)_1, arrow(w)_2, arrow(w)_3 ;)
    $
    $a times b$ is perpendicular to both a and b
 
-   *Direction of the corss product*: using the right hand rule
+   *Direction of the cross product*: using the right hand rule
 ])
 
 #TheoremBox("", [
@@ -60,7 +59,6 @@ $
       &#j times #k = #k quad &&#k times #j = - #i \
       &#k times #i = #k quad &&#i times #k = - #j \
    $
-
 ])
 
 #bluebox("Properties of Cross Product", [
