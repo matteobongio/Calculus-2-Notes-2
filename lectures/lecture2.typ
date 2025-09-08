@@ -21,7 +21,7 @@
 
 #Definitionbox("Pericewise Continuous Functions", [
    A function 
-   $f$ is said to ee piecewise continuous on a domain $D$ in the set of reals, if for every $c$
+   $f$ is said to be piecewise continuous on a domain $D$ in the set of reals, if for every $c$
    in $D$ both the left limit, and right limit exist:
    $ f(c-) := lim_(x -> c^-) f(c) $
    $ f(c+) := lim_(x -> c^+) f(c) $
@@ -39,7 +39,7 @@
    $ f(t) = a_0 / 2 + sum_(n = 1)^infinity ( a_n cos(n omega t) + b_n sin(n omega t) ) $
    
    where $omega = (2 pi) / T$. this is called the *Fourier Series* of $f$ and the real numbers
-   $a_0, a_1, ...$ and $b_0, b_1, ...$ are called the *Fourier Coerfficients* of f.
+   $a_0, a_1, ...$ and $b_0, b_1, ...$ are called the *Fourier Coefficients* of f.
 ])
 
 #pinkbox("How to Compute the Fourier Coefficients", [
