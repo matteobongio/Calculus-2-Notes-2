@@ -38,5 +38,7 @@
 
 #include "lectures/lecture4.typ"
 
+#include "lectures/lecture5.typ"
+
 
 #bibliography("bib.bib", full: true)
