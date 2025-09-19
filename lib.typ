@@ -40,6 +40,9 @@
   generalbox(red, title, text, ..opts)
 }
 
+#let greenbox(title, text, ..opts) = {
+  generalbox(green, title, text, ..opts)
+}
 
 #let yellowbox(title, text, ..opts) = {
   generalbox(yellow, title, text, ..opts)
@@ -69,7 +72,6 @@
   generalbox(green, TheoremTitle, text, ..opts)
 }
 
-
 #let ExCnts = state("exmples", 0)
 
 #let Examplebox(text, ..opts) = {
@@ -78,11 +80,30 @@
   generalbox(orange, "Example " + c, text, ..opts)
 }
 
-
 #let Notationbox(text, ..opts) = {
   generalbox(red, "Notation", text, ..opts)
 }
 
+#let rainbowbox(title, text, ..opts) = {
+  showybox(
+    title-style: (
+      weight: 900,
+      // color: gradient.linear(..color.map.rainbow),
+      sep-thickness: 0pt,
+      align: center
+    ),
+    frame: (
+      title-color: gradient.linear(..color.map.rainbow),
+      border-color: gradient.linear(..color.map.rainbow),
+      body-color: gradient.linear(..color.map.rainbow),
+      thickness: (left: 1pt),
+      radius: (rest: 5pt)
+    ),
+    title: title,
+    text,
+    ..opts
+  )
+}
 
 // other
 
