@@ -27,7 +27,7 @@ $
 - determinants of $2 times 2$ and $3 times 3$
 
 #Definitionbox("Cross Product", [
-   $ #v times #w = mat(
+   $ #v times #w = mat(delim: "|",
       #i, #j, #k ;
       arrow(v)_1, arrow(v)_2 , arrow(v)_3 ;
       arrow(w)_1, arrow(w)_2, arrow(w)_3 ;)
