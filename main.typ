@@ -44,5 +44,41 @@
 
 #include "lectures/lecture7.typ"
 
+= Extras
+#columns(2)[
+   $
+   (v / u)' = frac(v u' - u v', v^2) \
+   "proj"_(arrow(a))arrow(b) = frac(arrow(a) dot arrow(b), ||arrow(a)||^2) arrow(a) \
+   "comp"_(arrow(a))arrow(b) = frac(arrow(a) dot arrow(b), ||arrow(a)||) = ||arrow(b)|| cos theta \
+   ||arrow(v) times arrow(w)|| = ||arrow(v)|| ||arrow(w)|| sin theta \
+   arrow(v) dot ||arrow(v) times arrow(w)|| = "area of parallel-piped" \
+   ||arrow(v) times arrow(w)|| = 0 => arrow(v) parallel arrow(w) \
+   "parametric equation of a line": \
+   t = frac(x - x_0, a) = frac(y - y_0, b)= frac(z - z_0, c) \
+   vec(x, y, z) = vec(x_0, y_0, z_0) + t vec(a, b, c) \
+   arrow(T)'(s) = arrow(r)'(s) = (arrow(r)'(t)) / (||arrow(r)'(t)||) \
+   kappa(s) = ||arrow(T)'(s)|| = frac(||arrow(r)'(t) times arrow(r)''(t)||, ||arrow(r)'(t)||^3) \
+   arrow(N)(s) = frac(arrow(T)'(s), kappa(s)) \
+   arrow(N)(t) = frac(arrow(T)'(t), ||arrow(T)'(t)||) \
+   arrow(B)(s) = arrow(T) (s) times arrow(N)(s) \
+   "Length" = integral_a^b sqrt((frac(d x, d t))^2 + (frac(d y, d t))^2 + (frac(d z, d t))^2) d t \
+$
+$
+   "Fourier Series": \
+   f(t) = a_0/2 + sum_(n = 1)^infinity a_n cos(n omega t) + b_n sin(n omega t) \
+   omega = (2 pi)/T \
+   a_n = 2/T integral_(- T/2)^(T/2) f(t) cos(n omega t) d t quad n=0,1,2,... \
+   b_n = 2/T integral_(- T/2)^(T/2) f(t) sin(n omega t) d t quad n=1,2,3,... \
+   "Even function have no sin terms," \ " Odd functions have no cos terms" \
+   "Ellipse":
+   x^2/a^2 + y^2/b^2 = 1 quad arrow(r)(t) = vec(a cos(t) + x_0, b sin(t) + y_0)
+   $
+
+   Limits:
+   does not exists if
+- different along different paths
+- deendent on angle when using polar coordinates
+
+]
 
 #bibliography("bib.bib", full: true)
