@@ -127,8 +127,8 @@ $C$.
    length parameter. Then the curvature of $C$ is given by
 
    $
-      kappa(t) = frac(|arrow(r)'(t) times arrow(r)''(t)|, |arrow(r)'(t)|^3)
-      lr((frac(|arrow(v)(t) times arrow(a)(t)|, |arrow(v)(t)^3|)))
+      kappa(t) = frac(|arrow(r)'(t) times arrow(r)''(t)|, |arrow(r)'(t)|^3) \
+      "physics": lr((frac(|arrow(v)(t) times arrow(a)(t)|, |arrow(v)(t)^3|)))
    $
 ])
 
