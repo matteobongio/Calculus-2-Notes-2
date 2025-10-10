@@ -48,6 +48,8 @@
 
 #include "lectures/lecture9.typ"
 
+#include "lectures/lecture10.typ"
+
 = Extras
 #columns(2)[
    $
