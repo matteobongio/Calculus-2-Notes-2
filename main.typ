@@ -50,6 +50,8 @@
 
 #include "lectures/lecture10.typ"
 
+#include "lectures/lecture11.typ"
+
 = Extras
 #columns(2)[
    $
