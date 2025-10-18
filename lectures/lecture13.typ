@@ -163,6 +163,13 @@ height $f$
    if the line integral $integral_C arrow(F) dot d arrow(r)$ depends only on the end points of $C$
    if $C_1, C_2$ are paths with the same end points then
    $ integral_C_1 arrow(F) dot d arrow(r) = integral_C_2 arrow(F) dot d arrow(r) $
+
+   #redbox("How to determine if F is a conservative vector field", [
+      $ 
+         F = f_x arrow(i) + f_y arrow(j) \
+         frac(partial f_x, partial y) - frac(partial f_y, partial x) = 0
+      $
+   ])
 ])
 
 #TheoremBox("The fundamental theorem for line integrals", [
