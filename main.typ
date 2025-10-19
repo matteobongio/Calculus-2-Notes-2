@@ -28,7 +28,7 @@
    + compute double and triple integrals representing surface and volumes of shapes, respectively
 ])
 
-#include "book/book notes 1.typ"
+// #include "book/book notes 1.typ"
 
 #include "lectures/lecture1.typ"
 
