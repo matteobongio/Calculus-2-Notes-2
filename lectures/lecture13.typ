@@ -202,9 +202,9 @@ height $f$
          M, N, P;
       )  \
       &= 
-      (frac(partial P, partial y) - frac(partial N, partial z)) arrow(i) -
+      (frac(partial P, partial y) - frac(partial N, partial z)) arrow(i) +
       (frac(partial P, partial x) - frac(partial M, partial z)) arrow(j) +
-      (frac(partial N, partial x) - frac(partial M, partial y)) arrow(k)
+      (frac(partial N, partial x) - frac(partial M, partial y)) arrow(k) \
    $
 
    $arrow(F)$ is _irrotational_ if $gradient times arrow(F) = 0$
