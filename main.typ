@@ -80,6 +80,14 @@
    "Length" = integral_a^b sqrt((frac(d x, d t))^2 + (frac(d y, d t))^2 + (frac(d z, d t))^2) d t \
 $
 $
+   "find critical points":\
+   (f_(x x) f_(y y) - f^2_(x y)) 
+   cases(
+      > 0 and F_(x x) > 0 => "local max",
+      > 0 and F_(x x) < 0 => "local min",
+      < 0 "saddle",
+      = 0 "inconclusive"
+   )\
    "Fourier Series": \
    f(t) = a_0/2 + sum_(n = 1)^infinity a_n cos(n omega t) + b_n sin(n omega t) \
    omega = (2 pi)/T \
